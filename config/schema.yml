@@ -1,0 +1,11 @@
+connection:           propel
+defaultIdMethod:      native
+package:              plugins.cre8CmsPagePlugin.lib.model
+
+classes:
+
+  cre8Page:
+    columns:
+      id:          ~
+      title:       { type: varchar(128), required: true, primaryString: true }
+      content_id:  { type: integer }
